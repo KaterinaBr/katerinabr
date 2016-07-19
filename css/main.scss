@@ -6,17 +6,26 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// color palette
+$galazio : #b1d4ec;
+$mple : #2e9fd6;
+$roz : #ba2171;
+$kafe : #583021;
+$mpez : #f5f4ef;
+
+// $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'Roboto Slab', sans-serif;
 $base-font-size:   16px;
-$base-font-weight: 400;
+$base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       $kafe ;
+$background-color: $mpez;
+$brand-color:      $roz;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -27,6 +36,8 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+
 
 
 

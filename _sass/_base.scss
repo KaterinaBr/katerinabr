@@ -1,3 +1,4 @@
+
 /**
  * Reset some basic elements
  */
@@ -16,18 +17,19 @@ dl, dd, ol, ul, figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
-    // extras!
-    background: @import '../_includes/img/texture.svg' repeat scroll 0% 0% transparent;
-    background-color: #e7e7e7;
+
     text-align: center;
-    font-family: 'Roboto Slab', serif;
+    background-color: $background-color;
+    background-image: radial-gradient(white 10%, transparent 10%),
+    radial-gradient(white 10%, transparent 10%);
+    background-size:60px 60px;
+    background-position: 0 0, 30px 30px;
 }
 
 
@@ -102,12 +104,12 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($brand-color, 5%);
     }
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 
@@ -117,7 +119,7 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
+    color: $galazio;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
@@ -207,7 +209,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $roz;
         }
     }
 }
