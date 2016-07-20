@@ -3,8 +3,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+  //  border-top: 5px solid $grey-color-dark;
+    // border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -28,6 +28,8 @@
 .site-nav {
     float: right;
     line-height: 56px;
+    padding: 10px;
+    border-left: 1.5px #ffffff solid;
 
     .menu-icon {
         display: none;
@@ -36,11 +38,28 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        display: block;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
         }
+
+    }
+
+    .menu-link {
+        font-size: $menu-font-size;
+        color: $menu-font-color;
+        min-width: 76px;
+        min-height: 36px;
+        text-align: left;
+
+    }
+
+
+    .menu-link:hover {
+      font-size: $menu-font-size *1.15;
+
     }
 
     @include media-query($on-palm) {

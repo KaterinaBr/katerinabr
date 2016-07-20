@@ -180,6 +180,12 @@ pre {
     }
 }
 
+.wrapper_header {
+  display: inline-block;
+  margin: 10px;
+
+}
+
 
 
 /**
@@ -211,4 +217,17 @@ pre {
             fill: $roz;
         }
     }
+}
+
+.logo {
+
+    >svg {
+    display: inline-block;
+    max-width:100%;
+    height : 70px;
+    width: 320px;
+    margin: 10px;
+    vertical-align: middle;
+  }
+
 }
