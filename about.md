@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hello!
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+My name is Katerina, I' m 26 years old and I am a designer. I live in Athens, in an apartment full of board games and a balcony full of plants. I also have a cat and a water turtle, who I think together they are planning to conquer the world someday.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I studied at the University of the Aegean, at the Department of Product and Systems Design Engineering, in the beautiful island of Syros. Over the years, I have worked as a graphic designer, junior game developer and product designer. 
+
+Anyway, you can check my online portfolio here and you can find me on {% include icon-github.html username=site.github_username %} and on {% include icon-linkedin.html username=site.linkedin_username %}.
+
+Have a nice day :)
