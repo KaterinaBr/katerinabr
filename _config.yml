@@ -15,5 +15,7 @@ url: "http://katerinabrani.me/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  KaterinaBr
 
+linkedin_username: katerinabrani
+
 # Build settings
 markdown: kramdown
