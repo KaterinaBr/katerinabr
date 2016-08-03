@@ -1,0 +1,32 @@
+---
+layout: page
+title: Portfolio
+permalink: /portfolio/
+---
+
+<p>Here will be my portfolio! </p>
+
+
+
+<html>
+<ul class="list-inline text-center projects">
+  {% for project in site.projects %}
+      <li>
+        <h1>{project.title} </h1>
+      </li>
+  {% endfor %}
+
+
+  <li><div class="proj"><a href="44treats.html">
+    <img src="{{site.baseurl}}/img/44treats.svg" class="" />
+    </a><div class="proj_text"><h3> 44 treats			</h3><h4> mobile app 	</h4></div></div>
+    </li>
+        <li><div class="proj"><img src="{{site.baseurl}}/img/print_mini.png" class="" /><div class="proj_text"><h3> faster					</h3><h4> mobile game </h4></div></div></li>
+        <li><div class="proj"><img src="{{site.baseurl}}/img/print_mini.png" class="" /><div class="proj_text"><h3> drawing table	</h3><h4> 3d product 	</h4></div></div></li>
+        <li><div class="proj"><img src="{{site.baseurl}}/img/print_mini.png" class="" /><div class="proj_text"><h3> tiara					</h3><h4> 3d product 	</h4></div></div></li>
+        <li><div class="proj"><img src="{{site.baseurl}}/img/print_mini.png" class="" /><div class="proj_text"><h3> del forno			</h3><h4> flyer 			</h4></div></div></li>
+        <li><div class="proj"><img src="{{site.baseurl}}/img/print_mini.png" class="" /><div class="proj_text"><h3> storage space	</h3><h4> craft				</h4></div></div></li>
+        <li><div class="proj"><img src="{{site.baseurl}}/img/print_mini.png" class="" /><div class="proj_text"><h3> animals				</h3><h4> 3d product 	</h4></div></div></li>
+
+</ul>
+</html>
