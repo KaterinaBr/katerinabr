@@ -1,0 +1,40 @@
+
+- title : '44 treats'
+  type:   'mobile app'
+  img:    '44treats.svg'
+  descr:  "sdfsdfsd sidfsidfj sodifsd iofusdiof usdiof sud"
+
+- title : 'project 2'
+  type:   '3d product'
+  img:    'print_mini.png'
+  descr:  "sfoidsofpi spoifopsdi fopdsi fopsi"
+
+- title : 'project 3'
+  type:   'print'
+  img:    'print_mini.png'
+  descr:  "sfoidsofpi spoifopsdi fopdsi fopsi"
+
+- title : 'project 4'
+  type:   'game'
+  img:    'print_mini.png'
+  descr:  "sfoidsofpi spoifopsdi fopdsi fopsi"
+
+- title : 'project 5'
+  type:   'craft'
+  img:    'print_mini.png'
+  descr:  "sfoidsofpi spoifopsdi fopdsi fopsi"
+
+- title : 'project 6'
+  type:   'website'
+  img:    'print_mini.png'
+  descr:  "sfoidsofpi spoifopsdi fopdsi fopsi"
+
+- title : 'project 7'
+  type:   'branding'
+  img:    'print_mini.png'
+  descr:  "sfoidsofpi spoifopsdi fopdsi fopsi"
+
+- title : 'project 8'
+  type:   'craft'
+  img:    'print_mini.png'
+  descr:  "sfoidsofpi spoifopsdi fopdsi fopsi"
