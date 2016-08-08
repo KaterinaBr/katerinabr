@@ -11,14 +11,12 @@ permalink: /portfolio/
 <ul class="list-inline text-center projects">
   {% for project in site.data.projects %}
       <li>
-        <div class="proj">
+        <div>
             <a href="">
                 <img src="{{ site.baseurl }}/img/thumbnails/{{ project.img }}"/>
             </a>
-            <div class="proj_text">
                 <h4>{{ project.title }}</h4>
                 <h5>{{ project.type }}</h5>
-            </div>
         </div>
       </li>
   {% endfor %}
