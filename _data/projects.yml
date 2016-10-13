@@ -1,40 +1,40 @@
 
-- title : '44 treats'
-  type:   'mobile app'
-  img:    '44treats.svg'
-  descr:  "sdfsdfsd sidfsidfj sodifsd iofusdiof usdiof sud"
+- title :   '44 treats'
+  type:     'mobile app'
+  img_thum: '44treats.svg'
+  img_proj: '44treats.png'
+  permalink: /44treats/
+  descr:  "Εφαρμογή για κινητά που σχεδιάστηκε και δημιουργήθηκε στα πλαίσια του
+  Hackathon NBG i-bank #fintech crowdhackathon με θέμα την ανάπτυξη εφαρμογών
+  (Minimum Viable Products - MVPs) και την επιχειρησιακή καινοτομία στις
+  οικονομικές συναλλαγές (fintech)."
 
-- title : 'project 2'
-  type:   '3d product'
-  img:    'print_mini.png'
-  descr:  "sfoidsofpi spoifopsdi fopdsi fopsi"
+- title :   'project 2'
+  type:     '3d product'
+  img_thum: '44treats.svg'
+  descr:    "sfoidsofpi spoifopsdi fopdsi fopsi"
 
-- title : 'project 3'
-  type:   'print'
-  img:    'print_mini.png'
-  descr:  "sfoidsofpi spoifopsdi fopdsi fopsi"
+- title :   'project 3'
+  type:     'print'
+  img_thum: 'print_mini.png'
+  descr:    "sfoidsofpi spoifopsdi fopdsi fopsi"
 
-- title : 'project 4'
-  type:   'game'
-  img:    'print_mini.png'
-  descr:  "sfoidsofpi spoifopsdi fopdsi fopsi"
+- title :   'project 4'
+  type:     'game'
+  img_thum: 'print_mini.png'
+  descr:    "sfoidsofpi spoifopsdi fopdsi fopsi"
 
-- title : 'project 5'
-  type:   'craft'
-  img:    'print_mini.png'
-  descr:  "sfoidsofpi spoifopsdi fopdsi fopsi"
+- title :   'project 5'
+  type:     'craft'
+  img_thum: 'print_mini.png'
+  descr:    "sfoidsofpi spoifopsdi fopdsi fopsi"
 
-- title : 'project 6'
-  type:   'website'
-  img:    'print_mini.png'
-  descr:  "sfoidsofpi spoifopsdi fopdsi fopsi"
+- title :   'project 6'
+  type:     'website'
+  img_thum: 'print_mini.png'
+  descr:   "sfoidsofpi spoifopsdi fopdsi fopsi"
 
-- title : 'project 7'
-  type:   'branding'
-  img:    'print_mini.png'
-  descr:  "sfoidsofpi spoifopsdi fopdsi fopsi"
-
-- title : 'project 8'
-  type:   'craft'
-  img:    'print_mini.png'
-  descr:  "sfoidsofpi spoifopsdi fopdsi fopsi"
+- title :   'project 7'
+  type:     'branding'
+  img_thum: 'print_mini.png'
+  descr:    "sfoidsofpi spoifopsdi fopdsi fopsi"

@@ -1,0 +1,14 @@
+---
+layout: default
+title: projects
+---
+
+{% for project in site.projects %}
+      <div>
+          <a href="{{ project.url | prepend: project.permalink}}">
+              <img src="{{ site.baseurl }}/img/thumbnails/{{ project.img_thum}}"/>
+          </a>
+              <h4>{{ project.title }}</h4>
+              <h5>{{ project.type }}</h5>
+      </div>
+{% endfor %}

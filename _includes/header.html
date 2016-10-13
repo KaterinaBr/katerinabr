@@ -2,15 +2,15 @@
 
   <div class="wrapper wrapper_header">
 
-    <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
     {% include logo.html %}
 
     <nav class="site-nav">
-
       <div class="trigger">
         {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link menu-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% if my_page.layout == 'page'%}
+            {% if my_page.title%}
+            <a class="page-link menu-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            {% endif %}
           {% endif %}
         {% endfor %}
       </div>
