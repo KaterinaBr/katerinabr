@@ -1,7 +1,7 @@
-
+$trans_sec: 0.25s;
 
 .projects 		{ display: inline-block; margin: 5% 1%; max-width: 960px;}
-.projects li 	{ margin:0px 15px; min-height: 160px;}
+.projects li 	{ margin:0px 15px; min-height: 175px;}
 .projects img { height:100px; border-radius: 5px;position: relative; top: 3px; z-index: 1;}
 
 .projects div {
@@ -10,28 +10,31 @@
   background: #187ea4;
   border-radius:6px;
   -webkit-transition: height 2s;
-  transition: height 0.4s;
+  transition: height $trans_sec;
 }
-.projects div:hover {height: 150px;}
+.projects div:hover { height: 170px; }
 
 
 .projects div:hover h4 {
-	transform: translateY(40px);
-	transition: transform 0.3s;
+	transform: translateY(56px);
+	transition: transform $trans_sec;
 }
 .projects div:hover h5 {
-	transform: translateY(40px);
-	transition: transform 0.3s;
+	transform: translateY(56px);
+	transition: transform $trans_sec;
 }
 
+.projects h4 {
+  font-size:19px;
+
+}
 h4 {
-	font-size:16px;
 	font-weight: 300;
 	color:white;
   margin: 0px;
-  margin-top: -35px;
+  margin-top: -50px;
 	transform: translateY(-50%);
-	transition: transform 0.3s;
+	transition: transform $trans_sec;
 }
 
 h5 {
@@ -44,7 +47,7 @@ h5 {
 
   margin-top: 3px;
 	transform: translateY(-50%);
-	transition: transform 0.3s;
+	transition: transform $trans_sec;
 
 }
 
@@ -60,7 +63,7 @@ h5 {
 }
 
 h6 {
-  font-size: 0.9em;
+  font-size: 0.85em;
   line-height: 125%;
 
 
