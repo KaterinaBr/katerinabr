@@ -4,7 +4,11 @@ title:    children's cart
 type:     'product design'
 permalink: /supermarket_cart/
 img_thum: 'kala8aki.png'
-img_proj: 'kala8aki1.jpg'
+img_proj:
+ - 'kala8aki1.jpg'
+ - 'kala8aki2.jpg'
+ - 'kala8aki3.jpg'
+ - 'kala8aki4.jpg'
 
 ---
 

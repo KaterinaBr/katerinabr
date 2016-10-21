@@ -4,7 +4,9 @@ title: bunny maze
 type:  game developer
 permalink: /bunny_maze
 img_thum: 'bunny_maze.jpg'
-img_proj: 'bunny_maze.jpg'
+img_proj:
+ - 'bunny_maze.jpg'
+ - 'bunny_maze2.jpg'
 ---
 
 
