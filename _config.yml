@@ -23,11 +23,3 @@ collections:
   projects:
     output: true
     permalink: /portfolio/:path/
-
-#
-# defaults:
-# - scope:
-#     path: ""
-#     type: my_projects
-#   values:
-#     layout: page

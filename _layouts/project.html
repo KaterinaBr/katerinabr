@@ -2,14 +2,31 @@
 layout: default
 ---
 
-<dic class="show_project row">
-  <div class="project-wrapper col-md-8 col-sm-8">
-    {% include carousel.html %}
-  </div>
-  <div class="project-wrapper col-md-4 col-sm-4">
-    <h2> {{ page.title }} </h2>
-    <h5> {{ page.type }} </h5>
-    <h6>  </br>{{ content }}</h6>
+<div class="show_project">
+  <div class="project-wrapper">
+    <div class="slick_imgs">
+      {% for img_p in page.img_proj %}
+        <img src="{{ site.baseurl }}/img/projects/{{ img_p }}" alt="screens of 44 treats">
+      {% endfor %}
+    </div>
 
+  </div>
+  <div class="project-wrapper row">
+    <div class="col-md-4 ">
+      <h2> {{ page.title }} </h2>
+      <h5> {{ page.type }} </h5>
+    </div>
+    <div class="col-md-8 ">
+      <h6>  </br>{{ content }}</h6>
+    </div>
    </div>
+</div>
+
+</div class "show_more">
+<div class="slick_projects">
+  {% for project in site.projects %}
+    <img src="{{ site.baseurl }}/img/thumbnails/{{ project.img_thum }}"/>
+  {% endfor %}
+</div>
+
 </div>
