@@ -1,7 +1,7 @@
 ---
 layout: project
-title: bunny maze
-type:  game developer
+title: Bunny Maze
+type:  game developing
 permalink: /bunny_maze
 img_thum: 'bunny_maze.jpg'
 img_proj:
