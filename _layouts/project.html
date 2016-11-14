@@ -2,9 +2,61 @@
 layout: default
 ---
 
+{% capture the_collection %}{{site.projects}}{% endcapture %}
+  {% if site.projects %}
+    {% assign  document = site.projects | sort: "type" %}
+  {% endif %}
+
+  {% for links in document %}
+      {% if links.title == page.title %}
+          {% unless forloop.first %}
+              {% assign prevurl = prev.url %}
+              {% assign prevtitle = prev.title %}
+              {% assign previmg = prev.img_thum %}
+          {% endunless %}
+          {% unless forloop.last %}
+              {% assign next = document[forloop.index] %}
+              {% assign nexturl = next.url %}
+              {% assign nexttitle = next.title %}
+              {% assign nextimg = next.img_thum %}
+          {% endunless %}
+      {% endif %}
+      {% assign prev = links %}
+  {% endfor %}
+
 <div class="show_project">
-  <h2> {{ page.title }} </h2>
-  <h5> {{ page.type }} </h5>
+
+  <div class="row">
+    {% if prevurl %}
+    <div class="prev_next_img2 col-md-2 col-sm-2">
+      <a href="{{prevurl}}">
+        <div class="slick-prev2"></div>
+        <img class="" src="{{ site.baseurl }}/img/thumbnails/{{ previmg }}"/>
+          <!-- <h6>  <div class="slick-prev2"></div> prev</h6> -->
+      </a>
+    </div>
+    {% endif %}
+    <div class="titles col-md-8 col-sm-8 ">
+      <h2> {{ page.title }} </h2>
+      <h5> {{ page.type }} </h5>
+    </div>
+    {% if nexturl %}
+    <div class="prev_next_img2 col-md-2 col-sm-2">
+      <a href="{{nexturl}}">
+
+        <img class="" src="{{ site.baseurl }}/img/thumbnails/{{ nextimg }}"/>
+        <div class="slick-next2"></div>
+        <!-- <h6>  next<div class="slick-next2"></div> </h6> -->
+
+      </a>
+    </div>
+    {% endif %}
+
+  </div>
+
+
+  <!-- <h2> {{ page.title }} </h2> -->
+  <!-- <h5> {{ page.type }} </h5> -->
   <div class="slick_imgs slider single-item">
     {% for img_p in page.img_proj %}
       <img src="{{ site.baseurl }}/img/projects/{{ img_p }}" alt="screens of 44 treats">
@@ -13,7 +65,30 @@ layout: default
   <h6> {{ content }} </h6>
 </div>
 
+<!--
+<div class="prev_next_menu">
+  {% if prevurl %}
+  <div class="prev_next_img prev">
+      <a href="{{prevurl}}">
+        <img class="" src="{{ site.baseurl }}/img/thumbnails/{{ previmg }}"/>
+      </a>
+  </div>
+  {% endif %}
 
+  {% if nexturl %}
+  <div class="prev_next_img next">
+      <a href="{{nexturl}}">
+        <img class="" src="{{ site.baseurl }}/img/thumbnails/{{ nextimg }}"/>
+        <button type="button" class="slick-next slick-arrow" data-role="none" aria-label="Next" role="button" style="display: block;">
+        prev</button>
+      </a>
+  </div>
+  {% endif %}
+</div>
+
+--->
+
+<!--
   <div class="slick_projects text-center">
 
     {% for project in site.projects %}
@@ -24,3 +99,4 @@ layout: default
       </div>
       {% endfor %}
     </div>
+  -->

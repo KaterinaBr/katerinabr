@@ -207,3 +207,56 @@ $slick-opacity-not-active: 0.25 !default;
         }
     }
 }
+
+
+//----------------
+
+.slick-prev2,
+.slick-next2 {
+  margin: 3px;
+  &:hover, &:focus {
+      outline: none;
+      background: transparent;
+      color: transparent;
+      &:before {
+          opacity: $slick-opacity-on-hover;
+      }
+  }
+  &.slick-disabled:before {
+      opacity: $slick-opacity-not-active;
+  }
+  &:before {
+      font-family: $slick-font-family;
+      font-size: 15px;
+      line-height: 1;
+      color: $slick-arrow-color;
+      opacity: $slick-opacity-default;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+.slick-prev2 {
+    z-index: 1;
+    [dir="rtl"] & {
+    }
+    &:before {
+        content: $slick-prev-character;
+        [dir="rtl"] & {
+          content: $slick-next-character;
+        }
+    }
+}
+
+.slick-next2 {
+    z-index: 1;
+    [dir="rtl"] & {
+    }
+    &:before {
+        content: $slick-next-character;
+        [dir="rtl"] & {
+          content: $slick-prev-character;
+        }
+    }
+}
