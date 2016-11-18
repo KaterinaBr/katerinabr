@@ -194,8 +194,24 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 45px;
 }
+
+.i_want {
+  border-radius: 30px;
+  border: 1px solid $roz;
+  padding: 7px 14px;
+  display: -webkit-inline-box;
+}
+.home h2 {
+  font-size: 20px;
+}
+
+.i_want:hover {
+  border-color: $kafe;
+
+}
+
 
 .post-list {
     margin-left: 0;

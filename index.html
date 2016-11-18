@@ -4,20 +4,15 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <h1 class="page-heading">Welcome, everyone*!</h1>
+  </br>
+  <h2> Do you want to see my portfolio?</h2>
+  <a href="/portfolio"> <h2 class="i_want">Of course I want!</h2> </a>
+  </br>
+  <a href="/about"> <h2 class="i_want">No, I prefer to learn about you</h2> </a>
+  </br>
+  </br>
+  </br>
+  <h6 > * muggles and wizards</h6>
 
 </div>
