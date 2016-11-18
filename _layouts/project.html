@@ -29,7 +29,7 @@ layout: default
   <div class="row">
     {% if prevurl %}
     <div class="prev_next_img2 col-md-2 col-sm-2">
-      <a href="{{prevurl}}">
+      <a href="{{prevurl | prepend: site.baseurl}}">
         <div class="slick-prev2"></div>
         <img class="" src="{{ site.baseurl }}/img/thumbnails/{{ previmg }}"/>
           <!-- <h6>  <div class="slick-prev2"></div> prev</h6> -->
@@ -42,7 +42,7 @@ layout: default
     </div>
     {% if nexturl %}
     <div class="prev_next_img2 col-md-2 col-sm-2">
-      <a href="{{nexturl}}">
+      <a href="{{nexturl | prepend: site.baseurl}}">
 
         <img class="" src="{{ site.baseurl }}/img/thumbnails/{{ nextimg }}"/>
         <div class="slick-next2"></div>
