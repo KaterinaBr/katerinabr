@@ -3,7 +3,7 @@ layout:   project
 title:    Attica Equine
 type:     'web design'
 permalink: /attica_equine/
-img_thum: 'kawaii.svg'
+img_thum: 'attica.svg'
 img_proj:
  - 'attica.jpg'
  - 'attica2.jpg'

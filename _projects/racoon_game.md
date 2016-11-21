@@ -1,7 +1,7 @@
 ---
 layout:   project
 title:    Racoon in da Hood
-type:     'flash game'
+type:     'game develop'
 permalink: /racoon_game/
 img_thum: 'racoon_game.jpg'
 img_proj: 'racoon_game.jpg'
