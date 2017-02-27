@@ -1,6 +1,6 @@
 ---
 layout:   project
-title:    children's cart
+title:    Children's cart
 type:     'product design'
 permalink: /supermarket_cart/
 img_thum: 'kala8aki.png'

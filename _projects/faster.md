@@ -1,6 +1,6 @@
 ---
 layout:   project
-title:    Faster the game
+title:    Faster!
 type:     'game design'
 permalink: /faster/
 img_thum: 'faster.jpg'

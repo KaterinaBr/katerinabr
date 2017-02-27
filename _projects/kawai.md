@@ -1,6 +1,6 @@
 ---
 layout:   project
-title:    kawai developers
+title:    Kawai developers
 type:     'web design'
 permalink: /kawai_developers/
 img_thum: 'kawaii.svg'

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: kitchen 3d modeling
+title: Small kitchen
 type:  3d modeling
 permalink: /small_kitchen
 img_thum: 'kouzinaki1.jpg'

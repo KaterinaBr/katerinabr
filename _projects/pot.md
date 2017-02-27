@@ -1,6 +1,6 @@
 ---
 layout:   project
-title:    storage in pot
+title:    Storage in pot
 type:     'crafting'
 permalink: /pot/
 img_thum: 'katsarola.jpg'

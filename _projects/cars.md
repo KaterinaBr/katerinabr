@@ -1,6 +1,6 @@
 ---
 layout: project
-title: cars 3d modeling
+title: Little cars
 type:  3d modeling
 permalink: /cars
 img_thum: 'cars.jpg'

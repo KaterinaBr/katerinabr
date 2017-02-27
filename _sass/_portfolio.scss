@@ -2,7 +2,7 @@
 $trans_sec: 0.25s;
 
 //emfanish eikonidiwn
-.projects 		{ display: inline-block; margin: 5% 1%; max-width: 960px;}
+.projects 		{ display: inline-block; margin: 2% 1%; max-width: 960px;}
 .projects li 	{ margin:0px 15px; min-height: 175px;}
 .projects img { height:100px; border-radius: 5px;position: relative; top: 3px; z-index: 1;}
 
@@ -25,10 +25,9 @@ $trans_sec: 0.25s;
 	transform: translateY(56px);
 	transition: transform $trans_sec;
 }
-
 .projects h4 {
   font-size:19px;
-
+  min-height: 42px;
 }
 h4 {
 	font-weight: 300;
@@ -38,7 +37,6 @@ h4 {
 	transform: translateY(-50%);
 	transition: transform $trans_sec;
 }
-
 h5 {
 	font-size: 0.8em;
 	font-weight: 300;
@@ -50,8 +48,9 @@ h5 {
   margin-top: 3px;
 	transform: translateY(-50%);
 	transition: transform $trans_sec;
-
 }
+
+
 //emfanish project
 .show_project {
   display: block;
@@ -130,27 +129,3 @@ h6 {
 .prev {
   margin: 15px auto 15px 15px;
 }
-/*
-.slick_projects {
-  margin: 30px;
-
-}
-
-.slick_projects img {
-  top: 3px;
-  width: 100px;
-  height: 100px;
-  border-radius: 5px;
-  margin: auto;
-  position: relative;
-
-}
-
-.slick_projects .slick_project_div {
-  width: 106px;
-  height: 106px;
-  margin: auto 50px;
-  background: #187ea4;
-  border-radius:6px;
-}
-*/

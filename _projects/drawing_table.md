@@ -1,6 +1,6 @@
 ---
 layout:   project
-title:    drawing table
+title:    Drawing table
 type:     '3d modeling'
 permalink: /drawing_table/
 img_thum: 'draw_table.jpg'

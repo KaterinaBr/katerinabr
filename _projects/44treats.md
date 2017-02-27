@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 44treats app
+title: 44treats
 type:  mobile app
 permalink: /44treats
 img_thum: '44treats.svg'
